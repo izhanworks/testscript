@@ -444,7 +444,7 @@ cat <<EOF > /etc/trojan/config.json
     }
 }
 EOF
-cat <<EOF> /etc/systemd/system/trojan.service
+cat <<EOF > /etc/systemd/system/trojan.service
 [Unit]
 Description=Trojan
 Documentation=https://trojan-gfw.github.io/trojan/
