@@ -56,7 +56,7 @@ cat> /usr/local/etc/xray/config.json << END
         "wsSettings": {
           "path": "/xray",
           "headers": {
-            "Host": ""y2
+            "Host": ""
           }
          },
         "quicSettings": {},
