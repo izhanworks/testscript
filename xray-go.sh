@@ -48,7 +48,7 @@ cat> /usr/local/etc/xray/config.json << END
         "tlsSettings": {
           "certificates": [
             {
-              "certificatefile": "etc/v2ray/v2ray.crt",
+              "certificatefile": "/etc/v2ray/v2ray.crt",
               "keyfile": "/etc/v2ray/v2ray.key"
             }
           ]
@@ -56,7 +56,7 @@ cat> /usr/local/etc/xray/config.json << END
         "wsSettings": {
           "path": "/xray",
           "headers": {
-            "Host": ""
+            "Host": ""y2
           }
          },
         "quicSettings": {},
@@ -296,7 +296,7 @@ cat> /usr/local/etc/xray/vless.json << END
         "tlsSettings": {
           "certificates": [
             {
-              "certificatefile": "etc/v2ray/v2ray.crt",
+              "certificatefile": "/etc/v2ray/v2ray.crt",
               "keyfile": "/etc/v2ray/v2ray.key"
             }
           ]
